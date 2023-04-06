@@ -1,0 +1,120 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: small;
+    display: flex;
+    flex-direction: column;
+    background-image: linear-gradient(to right, #fba01d, #02cbd2);
+}
+
+.principal {
+    display: flex;
+    justify-content: center;
+}
+
+.destaque-esquerdo {
+    text-align: center;
+    width: 300px;    
+}
+
+#ft-lb-home {
+    margin-top: 20px;
+    width: 150px;
+    border: #fb573d;
+    border-style: solid;
+    border-radius: 50%;
+    box-shadow: 5px 5px 15px #272727;
+}
+
+#cx-txt-destaque {
+    border-radius: 15px;
+    background-color: #fb573d;
+    color: white;
+    text-align: left;
+    margin: 10px;
+    padding: 15px;
+    box-shadow: 5px 5px 15px #272727;
+}
+
+#cx-txt-destaque p {
+    text-align: start;
+}
+
+.destaque-direito {
+    display: flex;
+    text-align: left;
+    justify-content: center;
+    color: white;
+}
+
+.destaque-direito h1{
+    margin-left: 30px;
+    text-shadow: 2px 2px 5px #272727;
+}
+
+.destaque-direito h2{
+    margin-left: 30px;
+    text-shadow: 2px 2px 5px #272727;
+}
+
+.card-destaque {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    border-radius: 15px;
+    background-color: #1f5c70;
+    margin: 30px 60px 50px 15px;
+    padding: 10px 15px 10px 15px;
+    box-shadow: 5px 5px 15px #272727;
+}
+
+.card-destaque img{
+    position: absolute;
+    align-self: flex-end;
+    margin-top: -40px;
+    margin-right: -40px;
+    width: 80px;
+}
+
+.card-destaque a {
+    align-self: end;
+}
+
+.card-destaque button {
+    width: 80px;
+}
+
+.card-destaque button {
+    align-self: end;
+    width: 80px;
+}
+
+footer {
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+a:link {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    text-shadow: 2px 2px 5px #272727;
+}
+
+a:visited {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+a:hover {
+    color:  #fb573d;
+    text-decoration: none;
+}
+    
+a:active {
+    color: #1f5c70;
+    text-decoration: none;
+}
+
+.logo-redes-sociais {
+    width: 40px;
+    margin: 0px 5px 5px 5px;
+}
