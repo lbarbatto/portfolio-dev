@@ -80,12 +80,14 @@ body {
 }
 
 .card-destaque button {
-    width: 80px;
-}
-
-.card-destaque button {
     align-self: end;
     width: 80px;
+    border-radius: 5px;
+    background-color: #fba01d;
+}
+.card-destaque button:hover {
+    background-color: #fb573d;
+    color: white;
 }
 
 footer {
